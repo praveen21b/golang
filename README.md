@@ -36,3 +36,10 @@ A binary file called `app` gets created. To run the binary run the below command
 ./app
 ```
 
+### Running code from everywhere like CLI/kubectl
+```
+go install github.com/praveen21b/golang/introduction/app
+
+# To run the code
+app
+```
