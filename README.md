@@ -26,3 +26,13 @@
     ```
     go run app.go
     ```
+
+### Building a Binary
+```
+go build
+```
+A binary file called `app` gets created. To run the binary run the below command.
+```
+./app
+```
+
