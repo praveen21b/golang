@@ -9,6 +9,7 @@ func main() {
     // fmt.Println("hello world")
     customers := getData()
     fmt.Println(customers)
+    fmt.Println(len(customers))
 }
 
 // func getData(variable dataType_var)(outputs){}
