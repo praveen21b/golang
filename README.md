@@ -37,6 +37,7 @@ A binary file called `app` gets created. To run the binary run the below command
 ```
 
 ### Running code from everywhere like CLI/kubectl
+This helps if we want to go to commandline interface
 ```
 go install github.com/praveen21b/golang/introduction/app
 
