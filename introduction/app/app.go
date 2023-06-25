@@ -17,5 +17,7 @@ func getData()(customers []string){
     // array
     customers = []string {"Praveen", "Sharada", "Pragati", "Prashant"}
 
+    customers = append(customers, "Shruti")
+
     return customers
 }
