@@ -13,12 +13,9 @@ func main() {
 }
 
 // func getData(variable dataType_var)(outputs){}
-func getData()(customer [4]string){
+func getData()(customers []string){
     // array
-    customer[0] = "Praveen"
-    customer[1] = "Sharada"
-    customer[2] = "Pragati"
-    customer[3] = "Prashant"
+    customers = []string {"Praveen", "Sharada", "Pragati", "Prashant"}
 
-    return customer
+    return customers
 }
