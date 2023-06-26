@@ -19,8 +19,10 @@ func getData()(customers []string){
 
     customers = append(customers, "Shruti")
 
-    for x := 0; x < len(customers); x++ {
-        fmt.Println(customers[x])
+    // for x := 0; x < len(customers); x++ {
+    for x, customer := range customers {
+        customer = customers[x]
+        fmt.Println(customer)
     }
 
     return customers
