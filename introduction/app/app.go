@@ -7,9 +7,17 @@ var greetings = "Hello,"
 
 func main() {
     // fmt.Println("hello world")
-    customers := getData()
-    fmt.Println(customers)
-    fmt.Println(len(customers))
+    // customers := getData()
+    // fmt.Println(customers)
+    // fmt.Println(len(customers))
+
+    customers := getCustomers()
+
+    for _, customer := range customers {
+
+        fmt.Println(customer)
+        
+    }
 }
 
 // func getData(variable dataType_var)(outputs){}
